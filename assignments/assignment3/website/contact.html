@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        const toggleNavigationIcon = (navToggler) => {
+            const navLinks = document.querySelector('nav-links');
+            navLinks.classList.toggle('toggled');
+            navToggler.classList.toggle('toggled');
+        }
+    </script>
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4 text-left">
+                    <a href="index.html" class="logo">
+                        <img src="images/Logo.png" alt="Logo">
+                    </a>
+                </div>
+                    <div class="col-md-3 col-sm-4">
+                        <a href="#" class="browse">
+                            Browse
+                        </a>
+                        <i class="arrow down"></i>
+                    </div>
+                    <div class="col-md-6 col-sm-4 header-actions text-right">
+                        <a href="#" class="login">Log In</a>
+                        <a href="#">My Courses</a>
+                    </div>
+                </div>
+                <!--
+                <div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                -->
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATOR -->
+
+    <nav>
+        <div class="container list-screen">
+            <div class="row">
+                <div class="col-12 text-left">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="list.html">Planets</a>
+                        </li>
+                        <li>
+                            <a href="list.html">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">Teachers</a>
+                        </li>
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-left page-nav">
+                    <p>Home/Contact</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-left contact-title">
+                    <h4>Questions? Contact us by e-mail or telephone</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <form action="#">
+                        <div class="form-control">
+                            <input type="text" id="firstname" name="first-name" required placeholder="First name *">
+                            <input type="text" id="lastname" name="last-name" required placeholder="Last name *">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <form action="#">
+                        <div class="form-control">
+                            <input type="email" id="e-mail" name="e-mail" required placeholder="E-mail *">
+                            <input type="number" id="telephone" name="telephone" required placeholder="Telephone *">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <form action="#">
+                        <div class="form-control">
+                            <textarea name="question" id="question" placeholder="How can we help you? *" cols="30"
+                                rows="10"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <form action="#">
+                        <div class="form-control">
+                            <input type="submit" value="Send" class="submit-button">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-9 text-left">
+                    <ul>
+                        <li>
+                            <a href="#">Explore</a>
+                        </li>
+                        <li>
+                            <a href="#">Planets</a>
+                        </li>
+                        <li>
+                            <a href="#">Courses</a>
+                        </li>
+                        <li>
+                            <a href="#">Teachers</a>
+                        </li>
+                        <li>
+                            <a href="#">New</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Company</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a href="#">Term</a>
+                        </li>
+                        <li>
+                            <a href="#">Faq</a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Community</a>
+                        </li>
+                        <li>
+                            <a href="#">Subscribe</a>
+                        </li>
+                        <li>
+                            <a href="#">Premium</a>
+                        </li>
+                        <li>
+                            <a href="#">Gift Cards</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 text-right">
+                    <img class="logo" src="images/Logo.png" alt="Logo ">
+                    <div class="footer-contact">
+                        <p>497 Evergreen Rd. Roseville, CA 95673</p>
+                        <p>+44 345 678 903</p>
+                        <p> masteryourplanet@mail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-second-row">
+                <div class="col-10 text-left">
+                    <p> &#169; masteryourplanet 2020 </p>
+                </div>
+                <div class="col-2 text-right footer-icons">
+                    <i class="fa fab fa-instagram"></i>
+                    <i class="fa fab fa-twitter"></i>
+                    <i class="fa fab fa-facebook-f"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+<!-- HAMBURGER
+
+<div class="col-3">
+    <a href="#" class="hamburger">
+        <div class="hamburger-horizontal"></div>
+        <div class="hamburger-horizontal"></div>
+        <div class="hamburger-horizontal"></div>
+    </a>
+</div>
+<div class="col-6"></div>
+<div class="col-3"></div>
+
+-->

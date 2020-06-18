@@ -1,0 +1,605 @@
+/**
+ * Main CSS file
+ */
+
+body {
+    font-family: var(--text-font);
+    font-weight: 400;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+img {
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/** 
+* HEADER
+*/
+
+header {
+    height: 210px;
+    width: 100%;
+    color: var(--color-white);
+    z-index: 1;
+    padding-top: 88px;
+}
+
+
+
+header .container {
+    height: 100%;
+    padding-top: 55px;
+}
+
+
+header .browse {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+}
+
+
+header .logo img {
+    position: relative;
+    bottom: 90px;
+}
+
+header .header-actions {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+}
+
+header .header-actions a {
+    color: var(--color-white);
+}
+
+header .header-actions .login {
+    padding-right: 50px;
+}
+
+/**
+* NAVIGATOR
+*/
+
+nav {
+    position: relative;
+    top: 60px;
+    height: 150px;
+    width: 100%;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    z-index: 1;
+}
+
+nav .container {
+    padding-top: 40px;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 50px;
+}
+
+nav ul li a {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+}
+
+
+/**
+* MAIN 
+*/
+
+main {
+    height: 1275px;
+    width: 100%;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    z-index: 1;
+}
+
+main .container {
+    position: relative;
+    top: 100px;
+}
+
+main .container h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+}
+
+main ul li {
+    display: inline;
+    padding-right: 50px;
+}
+
+main ul li a {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+}
+
+main .main-explore-nav {
+    position: relative;
+    top: 50px;
+}
+
+main .card {
+    padding-top: 100px;
+}
+
+main .card-info h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+}
+
+main .card-info h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    position: relative;
+    bottom: 10px;
+}
+
+main .card-info p {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    font-style: italic;
+}
+
+main .card-info {
+    position: relative;
+    bottom: 30px;
+}
+
+main .card-picture span {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    background-color: var(--color-green);
+    position: relative;
+    bottom: 30px;
+    text-align: left;
+}
+
+.middle {
+    position: relative;
+    right: 150px;
+}
+
+.right {
+    position: relative;
+    right: 300px;
+}
+
+main .too-big {
+    background-color: var(--color-black);
+    position: absolute;
+    bottom: 77px;
+}
+
+main .also-big {
+    background-color: var(--color-black);
+    position: relative;
+    bottom: 78px;
+}
+
+main .show-more-button {
+    background-color: var(--color-green);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+/**
+* MAIN LIST SCREEN
+*/
+
+main .page-nav {
+    text-align: left;
+    position: relative;
+    left: 42px;
+}
+
+main h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    padding-left: 200px;
+}
+
+main .follow-button {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-family: var(--text-font);
+    position: relative;
+    top: 55px;
+    right: 50px;
+    border-radius: 25px;
+}
+
+/**
+* MAIN LIST SCREEN - Navigator
+*/
+
+main .sidebar ul li a {
+    height: 1090px;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    padding-left: 16px;
+    padding-right: 10px;
+    line-height: 50px;
+}
+
+main .sidebar ul {
+    display: block;
+    position: relative;
+}
+
+main .sidebar li:first-child a {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-green);
+
+}
+
+main .sidebar {
+    position: relative;
+    right: 16px;
+}
+
+/**
+* MAIN LIST SCREEN - Main content
+*/
+
+main h5 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--text-font);
+    color: var(--color-white);
+}
+
+.card-info-footer {
+    position: relative;
+    top: 5px;
+}
+
+main .card-alienology {
+    background-color: var(--color-black);
+    position: relative;
+    bottom: 100px;
+}
+
+main .surviving-card {
+    background-color: var(--color-black);
+    position: absolute;
+    top: 295px;
+
+}
+
+main .decision-card {
+    position: relative;
+    top: 45px;
+}
+
+.footer-card {
+    position: relative;
+    bottom: 80px;
+}
+
+/**
+* MAIN - CONTACT PAGE 
+*/
+
+.contact-title {
+    position: relative;
+    right: 70px;
+}
+
+form {
+    padding: 60px;
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    background-color: var(--color-black);
+    border: 1px solid var(--color-green);
+    border-radius: 25px;
+    outline: none;
+    color: var(--color-white);
+}
+
+textarea {
+    height: 190px;
+    width: 570px;
+    background-color: var(--color-black);
+    border: 1px solid var(--color-green);
+    border-radius: 25px;
+    outline: none;
+    color: var(--color-white);
+}
+
+
+::placeholder {
+    position: relative;
+    left: 10px;
+}
+
+#firstname {
+    position: relative;
+    right: 30px;
+    padding-left: 10px;
+}
+
+#lastname {
+    position: relative;
+    left: 30px;
+    padding-left: 10px;
+}
+
+#e-mail {
+    position: relative;
+    right: 30px;
+    padding-left: 10px;
+}
+
+#telephone {
+    position: relative;
+    left: 30px;
+    padding-left: 10px;
+}
+
+#question {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.submit-button {
+    width: 220px;
+    height: 60px;
+    background-color: var(--color-green);
+    font-size: 25px;
+    font-family: var(--text-font);
+    text-transform: uppercase;
+}
+
+
+/**
+* FOOTER 
+*/
+
+footer {
+    height: 370px;
+    width: 100%;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    z-index: 1;
+    position: relative;
+    top: 70px;
+}
+
+
+
+footer ul {
+    display: inline-table;
+    padding-top: 20px;
+}
+
+footer ul li {
+    padding-right: 120px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    text-transform: uppercase;
+}
+
+footer li:first-child a {
+    font-weight: 700;
+    color: var(--color-black);
+    border-bottom: 1px solid var(--color-black);
+}
+
+footer img {
+    position: relative;
+    bottom: 35px;
+}
+
+footer .footer-contact p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--text-font);
+    color: var(--color-white);
+    text-align: center;
+}
+
+footer .footer-contact {
+    position: relative;
+    bottom: 110px;
+}
+
+footer .footer-second-row p {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: var(--text-font);
+    color: var(--color-white);
+}
+
+footer .footer-icons i {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+footer .footer-second-row {
+    position: relative;
+    bottom: 70px;
+    border-top: 1px solid var(--color-black);
+}
+
+/**
+* Footer List-Screen 
+*/
+
+.list-screen-footer {
+    position: relative;
+    top: 950px;
+}
+
+.view-all-button {
+    background-color: var(--color-green);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-white);
+    font-family: var(--text-font);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: relative;
+    left: 310px;
+    top: 30px;
+}
+
+/**
+* ARROW 
+*/
+
+i.arrow {
+    position: relative;
+    display: inline-block;
+    border: solid var(--color-white);
+    border-width: 0px 2px 2px 0px;
+    padding: 6px;
+}
+
+i.arrow.down {
+    transform: rotate(45deg);
+    left: 15px;
+    bottom: 5px;
+}
+
+
+
+
+/**
+* Mobile Version 
+*/
+
+
+
+/**
+* HAMBURGER
+*/
+
+.nav-toggler {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav-toggler .bar1,
+.nav-toggler .bar2,
+.nav-toggler .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: var(--color-white);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.nav-toggler.toggled .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.nav-toggler.toggled .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.nav-toggler.toggled .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+@media (min-width: 768px) {
+
+
+    .nav-toggler {
+        display: none;
+    }
+}
+
+.nav-links.toggled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-green);
+}
